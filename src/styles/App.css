@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  background-color: #f3f1ff;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 21px;
+  align-items: center;
+}
+.container {
+  background-color: #fff;
+  width: 870px;
+  padding: 30px;
+  /* margin: auto; */
+  border-radius: 5px;
+}
+.container .section-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #562eff;
+  margin-bottom: 31px;
+  margin-top: 12px;
+}
+.top-players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 29px;
+  /* column-gap: ; */
+  margin-bottom: 30px;
+}
+.players {
+  display: flex;
+  align-items: center;
+}
+
+.players img {
+  width: 56px;
+  height: 56px;
+}
+.players .player-name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  margin-left: 16px;
+}
+
+hr {
+  border: 1px solid #d1d1d1;
+}
+/*  */
+.top-blog {
+  margin-top: 30px !important;
+}
+.blogs {
+  display: grid;
+  row-gap: 26px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.blogs .blog {
+  display: flex;
+  column-gap: 16px;
+}
+
+.blog .thumbnail img {
+  width: 177px;
+  height: 117px;
+}
+.blog-info h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+}
+.blog-info p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9f9f9f;
+}
+.blog-info p a {
+  color: #562eff;
+  text-decoration: none;
+}
+
+/*  */
+.latest-courses {
+  margin-top: 23px !important;
+  margin-bottom: 11px !important;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.course{
+    width: 252.42px;
+    height: 269.79px;
+    /* box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05); */
+    box-shadow: 2px 2.34229px 15px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.course-card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 19.23px;
+    align-items: center;
+}
+
+.course-card .course-image img {
+  width: 224px;
+  height: 104px;
+}
+.course-card .course-details h3 {
+  font-family: "Roboto";
+  max-width: 224px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20.0336px;
+  line-height: 23px;
+  color: #1e1e1e;
+  margin-bottom: 7.17px;
+}
+.course-card .course-details p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.6913px;
+  line-height: 17px;
+  color: #ed6b4f;
+}
+.course-details .course-info {
+    margin-top: 12.5px;
+  display: flex;
+  column-gap: 25.38px;
+}
+
+.ratings-container {
+  display: flex;
+  column-gap: 10.71px;
+  align-items: center;
+}
+.ratings-container .ratings {
+  display: flex;
+  column-gap: 3.24px;
+}
+.ratings-container .ratings .star-icon {
+  width: 12.39px;
+  height: 11.81px;
+}
+.ratings-container .ratings .star-icon.filled {
+  fill: #ffc014;
+}
+.ratings-container .ratings .star-icon.empty {
+  fill: #aeaeae;
+}
+.ratings-container p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.6913px;
+  line-height: 22px;
+  color: #a2a2a2;
+}
+
+.course-duration {
+  background: #ffe4e8;
+  width: 94.83px;
+  height: 29.38px;
+  border-radius: 14.6913px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-duration span {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.6913px;
+  line-height: 20px;
+  color: #ff4a60;
+  display: flex;
+  align-items: center;
+  column-gap: 5.42px;
+}
+.course-duration span .clock-icon {
+  height: 16.69px;
+  width: 16.69px;
+}
